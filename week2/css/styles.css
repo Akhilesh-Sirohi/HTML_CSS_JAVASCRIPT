@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding-top: 10px;
+}
+div {
+  color: black;
+  background-color: grey;
+  padding: 0px;
+  border: 1px solid black;
+  padding-bottom: 15px;
+}
+.p2{
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 0;
+  clear: both;
+}
+.p1 {
+  font-size: 125%;
+  text-align: center;
+  width:120px;
+  padding: 3px;
+  border: 1px solid black;
+  float: right;
+  clear:both;
+  position: relative;
+  top:-1px;
+  right:-1px;
+
+}
+#x1 {
+  color: black;
+  background: pink;
+}
+#x2{
+  color:white;
+  background:crimson;
+}
+#x3{
+  color:Black;
+  background: khaki;
+}
+@media(min-width: 992px){
+  .div1, .div2, .div3{
+      max-width: 32%;
+      float:left;
+      margin:1%;
+  }
+  .div2, .div3{
+      margin-left:0%;
+  }
+  .p2{
+    height: 185px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .div1, .div2, .div3{
+      width:45.5%;
+      float: left;
+      margin: 3%;
+      padding-bottom: 15px;
+  }
+  .p2{
+    height: 133px;
+    overflow: hidden;
+  } 
+  .div2{
+      margin-left:0;
+  }
+  .div3{
+      width: 94%;
+      margin-top: 0;
+      padding-bottom: 0px;
+  }
+  
+}
+@media(max-width: 767px){
+  .div1, .div2, .div3{
+      width:90%;
+      margin: 5%;
+  }
+}
