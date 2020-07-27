@@ -1,0 +1,80 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-brand h1 {
+    position:relative;
+    top: -20px;
+    left: 10px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
+.navbar{
+    min-height: 60px;
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.navbar-collapse{
+    clear: both;
+}
+nav{
+    padding: 0;
+}
+.navbar-collapse {
+    border: 0;
+    padding:0;
+}
+.icon-bar {
+    width:110%;
+    border:1.5px solid black;
+}
+
+a > div{
+    border-top: 2px solid black;
+    background-color: white;
+    height: 35px;
+    padding-top: 5px;
+    text-align: center;
+    color: black;
+    font-size:1.3em;
+}
+a:hover >div{
+    background-color: lightgrey;
+    color: green;
+    font-style: normal;
+}
+
+.main-heading{
+    text-align: center;
+    font-weight: 600;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+#main-content{
+    color:black;
+}
+.dish-name{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight:bold;
+    margin-top: -2px;
+    margin-bottom:5px;
+}
+.container{
+    width: 95%;
+}
+#dish1, #dish2, #dish3{
+    background-color:grey;
+    width:100%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding:10px;
+}
+#link-in-beef-section >a{
+    color: darkblue;
+    font-size:1.3em;
+    text-decoration: underline;
+}
